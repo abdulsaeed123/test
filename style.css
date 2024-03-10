@@ -1,6 +1,38 @@
-body{
-    background-color: aqua;
+*{
+    box-sizing: border-box;
 }
-h1{
-    color: white;
+
+.main-heading{
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column{
+    max-width: 25%;
+    flex: 25%;
+    padding: 4px;
+}
+
+.column img{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+
+@media all and (max-width: 960px) {
+    .column{
+        max-width: 50%;
+        flex: 50%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .column{
+        max-width: 100%;
+        flex: 100%;
+    }
 }
