@@ -1,0 +1,53 @@
+/* body{
+    background-image: url(/2-28-24/images/3d.jpg);
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+}
+
+
+.center{
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+}
+
+
+.main{
+    width: 500px;
+    height: 400px;
+} */
+
+div{
+
+    background-color:  #f2f2f2;
+    margin: 60px;
+    padding: 50px;
+    border-radius: 5px;
+}
+input[type=text], select{
+
+width: 100%;
+padding: 10px 30px;
+margin: 0px 10px;
+display: inline-block;
+border: 1px solid black;
+border-radius: 5px;
+box-sizing: border-box;
+
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 15px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover{
+    background-color:  #45a049;
+}
